@@ -32,6 +32,7 @@ function App() {
     <div className="app">
       <header className="app-header">
         <h1>UGBA 195T AI Counter</h1>
+        <span className="author-badge">Caden Chiang</span>
         <p className="app-subtitle">
           Count how many times "AI" is mentioned in lecture
         </p>

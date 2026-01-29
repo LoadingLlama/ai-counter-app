@@ -1,0 +1,94 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f5f5f7;
+}
+
+.app-header {
+  padding: 40px 20px 20px;
+  text-align: center;
+}
+
+.app-header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+  color: #1d1d1f;
+  letter-spacing: -0.02em;
+}
+
+.app-subtitle {
+  color: #86868b;
+  margin-top: 6px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+
+.app-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  padding: 16px 20px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.reset-button {
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #1d1d1f;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 980px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.reset-button:hover {
+  background: rgba(255, 255, 255, 1);
+  transform: scale(1.02);
+}
+
+.reset-button:active {
+  transform: scale(0.98);
+}
+
+.browser-warning {
+  padding: 12px 20px;
+  background: rgba(255, 204, 0, 0.1);
+  color: #1d1d1f;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 204, 0, 0.3);
+  text-align: center;
+  max-width: 400px;
+  font-size: 0.85rem;
+}
+
+.error-message {
+  padding: 12px 20px;
+  background: rgba(255, 59, 48, 0.1);
+  color: #ff3b30;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 59, 48, 0.2);
+  text-align: center;
+  max-width: 400px;
+  font-size: 0.85rem;
+}
+
+.app-footer {
+  padding: 20px;
+  text-align: center;
+  color: #86868b;
+  font-size: 0.75rem;
+}
